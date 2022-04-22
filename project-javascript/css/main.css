@@ -1,0 +1,21 @@
+.success {
+    color: green;
+    font-size: 24px;
+}
+
+table {
+    border: 1px solid;
+}
+
+td {
+    border: 1px solid;
+    min-width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+
+#sudoku {
+    margin-bottom: 30px;
+}
+

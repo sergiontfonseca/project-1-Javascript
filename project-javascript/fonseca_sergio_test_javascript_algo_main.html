@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+    <script src="data/Javascript_test_je1.js"> </script>
+    <script src="scripts/fonseca_sergio_test_javascript_algo_ex1.js"> </script>
+    <script src="scripts/fonseca_sergio_test_javascript_algo_ex2.js"> </script>
+    <script src="scripts/fonseca_sergio_test_javascript_algo_ex3.js"> </script>
+</head>
+
+<body>
+    <table id="sudoku"></table>
+    <table id="errors"></table>
+    <p class="success" id="success"></p>
+
+    <script>
+        loadTableData();
+        createTable();
+        validateRows();
+        validateColumns();
+        validateRegions();
+        checkSuccess();
+    </script>
+</body>
+</html>
